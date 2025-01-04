@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html {background-image: url("images/pinkbg.jpg");
+         background-size: cover;}
+</style>
+
+<style>
+    body {
+    /* Navigation bar */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        padding: 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .topnav a.active {
+        background-color: #c7aec6;
+        color: white;
+    }
+
+    /* Footer Styles */
+    footer {
+            margin-top: auto;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        .last-update {
+            font-size: 0.8em;
+            margin-top: 5px;
+            display: inline;
+        }
+
+        .clock-container {
+            font-size: 0.8rem;
+            margin-top: 5px;
+            display: inline;
+        }
+
+
+</style>
+
+
+<!-- Navigation Bar -->
+<div class="topnav">
+    <a class="active" href="home.html" aria-label="Home">Home</a>
+    <a href="about.me.html" target="_self" aria-label="About Me">About Me</a>
+    <a href="friends.html" target="_self" aria-label="Friends">Friends</a>
+    <a href="education.html" target="_self" aria-label="Education">Education</a>
+    <a href="hobby.html" target="_self" aria-label="Hobby">Hobby</a>
+    <a href="gallery.html" target="_self" aria-label="Gallery">Gallery</a>
+    <a href="drama.html" target="_self" aria-label="Favorite Drama">Favorite Drama!</a>
+</div>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<style>
+ @font-face {
+font-family: 'Century Gothic'; 
+src: url('path/to/century-gothic.ttf') format('truetype');
+}
+h1 {
+font-family: 'Century Gothic';
+text-align: center;
+}
+
+h3 {
+font-family: 'Century Gothic';
+text-align: center;
+}
+.underlined {
+ text-decoration: underline;
+}
+
+div.gallery {
+  border: 1px solid #a20a8f;
+}
+
+div.gallery:hover {
+  border: 1px solid #a20a8f;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 400px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h1>‧˚₊⋅ ୨୧ ⋅₊˚‧My Memorable Gallery‧˚₊⋅ ୨୧ ⋅₊˚‧</h1>
+
+<h3><span class="underlined">Click for bigger size.</span></h3>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/dwfam.jpg">
+      <img src="images/dwfam.jpg" alt="Cinque Terre" width="300" height="100">
+    </a>
+    <div class="desc">Dinner With Family</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/cemp.jpg">
+      <img src="images/cemp.jpg" alt="Cemp" width="600" height="400">
+    </a>
+    <div class="desc">Top 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/bc.jpg">
+      <img src="images/bc.jpg" alt="Birthday dinner" width="600" height="400">
+    </a>
+    <div class="desc">Comfort Foods</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/bwfam.jpg">
+      <img src="images/bwfam.jpg" alt="Breakfast" width="600" height="400">
+    </a>
+    <div class="desc">Breakfast With Family</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/cgames.jpg">
+        <img src="images/cgames.jpg" alt="Games" width="600" height="400">
+      </a>
+      <div class="desc">Childhood Games</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/coffee.jpg">
+        <img src="images/coffee.jpg" alt="Coffee" width="600" height="400">
+      </a>
+      <div class="desc">Good Taste</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/bowling.jpg">
+        <img src="images/bowling.jpg" alt="Bowling" width="600" height="400">
+      </a>
+      <div class="desc">Bowling</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/btreats.jpg">
+        <img src="images/btreats.jpg" alt="Birthday Treats" width="600" height="400">
+      </a>
+      <div class="desc">Birthday Treats</div>
+    </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/mee.jpg">
+            <img src="images/mee.jpg" alt="Me" width="600" height="400">
+          </a>
+          <div class="desc">Me</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/snack.jpg">
+            <img src="images/snack.jpg" alt="Snacking" width="600" height="400">
+          </a>
+          <div class="desc">Another Snacking</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/brk.jpg">
+            <img src="images/brk.jpg" alt="Breakfast" width="600" height="400">
+          </a>
+          <div class="desc">Another Breakfast</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="images/healthy.jpg">
+            <img src="images/healthy.jpg" alt="Healthy" width="600" height="400">
+          </a>
+          <div class="desc">Healthy Snacking</div>
+        </div>
+      </div>
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
